@@ -24,7 +24,7 @@ const BLOG = {
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '后豐巨星 吳建良', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '我是一位開發者，也是台語歌手以細膩的情感表達和獨特的音樂風格聞名。其歌曲深受廣大聽眾喜愛，經常在台灣音樂排行榜上佔據一席之地。他的歌聲充滿溫暖和力量，觸動人心。无论是抒情曲抑或是動感歌曲，都展現了他卓越的音樂才華。', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || '我是一位開發者，也是台語歌手以細膩的情感表達和獨特的音樂風格聞名。其歌曲深受廣大聽眾喜愛，經常在台灣音樂排行榜上佔據一席之地。他的歌聲充滿溫暖和力量，觸動人心。無論是抒情曲抑或是動感歌曲，都展現了他卓越的音樂才華。', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://notion-next-rmfq6xt4w-ryans-projects-f737e538.vercel.app', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '后豐巨星 吳建良, 博客', // 网站关键词 英文逗号隔开
 
@@ -499,11 +499,6 @@ const BLOG = {
     icon: process.env.NEXT_PUBLIC_NOTION_PROPERTY_ICON || 'icon',
     ext: process.env.NEXT_PUBLIC_NOTION_PROPERTY_EXT || 'ext' // 扩展字段，存放json-string，用于复杂业务
   },
-
-  // RSS订阅
-  ENABLE_RSS: process.env.NEXT_PUBLIC_ENABLE_RSS || true, // 是否开启RSS订阅功能
-  MAILCHIMP_LIST_ID: process.env.MAILCHIMP_LIST_ID || null, // 开启mailichimp邮件订阅 客户列表ID ，具体使用方法参阅文档
-  MAILCHIMP_API_KEY: process.env.MAILCHIMP_API_KEY || null, // 开启mailichimp邮件订阅 APIkey
 
   // ANIMATE.css 动画
   ANIMATE_CSS_URL:
